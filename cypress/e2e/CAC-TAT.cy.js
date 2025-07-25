@@ -9,7 +9,7 @@ describe('Central de Atendimento ao Cliente TAT', () => {
     cy.title().should('be.equal', 'Central de Atendimento ao Cliente TAT')
   })
 
-  it('preenche os campos obrigatórios e envia o formulário', () => {
+  it('preenche os campos obrigatórios e envia o formulário com sucesso', () => {
 
     const longText = Cypress._.repeat('Muito bom!', 100)
 
